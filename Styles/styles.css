@@ -25,7 +25,7 @@ header{
     padding: 3em 12.5em;
     display: flex;
     justify-content: space-between;
-    border: 2px solid tomato;
+   
     
 }
 
@@ -55,7 +55,7 @@ header{
 /* banner */
 
 .banner{
-    border: 2px solid rgb(182, 4, 4);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,7 +66,6 @@ header{
     max-width: 800px;
     text-align: center;
     /* margin: 0 auto; */
-    border: 2px solid rgb(8, 8, 8);
 
 }
 .banner_header,.banner_description{
@@ -100,7 +99,6 @@ header{
 
     display: flex;
     align-items: center;
-    border: 2px solid rgb(8, 8, 8);
     padding: 3.1em;
 
 }
@@ -206,7 +204,39 @@ header{
     position: relative;
     bottom: 100px;
     right: 20px;
-    padding: 40px;
+    padding: 2.5em;
+}
+
+.facts_container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2em;
+}
+.box_container{
+    display: flex;
+    justify-content: center;
+    gap: 2.5em;
+    text-align: center;
+    
+}
+.box{
+    
+    margin-top: 1.5em;
+    border: 2px dotted tomato;
+    padding: 1.6em 0.3em;
+}
+
+.box_header{
+    color: #131313;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+.box_text{
+    color: #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;    
 }
 
 @media screen and (max-width:576px) {
@@ -252,7 +282,7 @@ header{
         margin-top: 50px;
     }
 
-    .features_toLove_Container{
+    .features_toLove_Container,.box_container{
         flex-direction: column;
     }
     .experience_text{

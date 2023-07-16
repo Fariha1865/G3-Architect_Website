@@ -167,6 +167,21 @@ header{
     padding: 100px;
 }
 
+.cards_header{
+    color: #131313;
+    font-size: 2.8em;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.cards_description{
+
+    color: #727272;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+}
+
 .cards{
     border-radius: 8px;
     background: #FFF;
@@ -208,6 +223,17 @@ header{
         padding-left: 2em;
         padding-right: 2em;
         margin-bottom: 20px;
+    }
+    .card_image{
+        display: none;
+    }
+
+    .features_toLove_Container{
+        background-image: url('../images/architect.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding: 20px;
+        margin-top: 50px;
     }
 
 }
